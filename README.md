@@ -31,8 +31,6 @@ date <- '2021-08-10'
 #load in data
 tuesdata <- tidytuesdayR::tt_load(date)
 investment <- tuesdata$investment
-
-
 ```
 
 ## Features
