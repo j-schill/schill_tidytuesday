@@ -18,7 +18,7 @@ Describe the steps users need to follow to install and run your project. Include
 
 ```r
 # Installation steps
-install.packages("tidytuesdayr")
+install.packages("tidytuesdayR")
 ```
 
 ## Usage
@@ -26,8 +26,13 @@ install.packages("tidytuesdayr")
 Explain how to use your project. Provide examples and code snippets if necessary.
 
 ```r
-# Example usage
-npm start
+#Sample Data Ingestion
+date <- '2021-08-10'
+#load in data
+tuesdata <- tidytuesdayR::tt_load(date)
+investment <- tuesdata$investment
+
+
 ```
 
 ## Features
